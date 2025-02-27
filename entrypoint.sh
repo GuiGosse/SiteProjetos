@@ -19,6 +19,9 @@ php artisan config:clear
 php artisan cache:clear
 php artisan config:cache
 
+#link do acesso das imagens
+php artisan storage:link
+
 # Define permissões corretas
 chown -R www-data:www-data storage bootstrap/cache
 chmod -R 775 storage bootstrap/cache
