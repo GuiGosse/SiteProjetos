@@ -61,11 +61,11 @@
         </ul>
 
         <h2>Contato</h2>
-        <p>📧 <a href="mailto:contato@meusite.com">contato@meusite.com</a></p>
+        <p>📧 <a href="mailto:guilhermegosse@gmail.com">guilhermegosse@gmail.com</a></p>
     </div>
 
     <footer class="footer">
-        <p>&copy; {{ date('Y') }} Meu Nome. Todos os direitos reservados.</p>
+        <p>&copy; {{ date('Y') }} Guilherme Gosse. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
