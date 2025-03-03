@@ -35,7 +35,7 @@
             width: 100%;
         }
         a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-weight: bold;
         }
