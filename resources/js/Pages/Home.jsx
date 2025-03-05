@@ -386,11 +386,11 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div>
                     <h4 className="font-bold text-gray-900 dark:text-white mb-2">Nome:</h4>
-                    <p className="text-gray-600 dark:text-gray-300">João Silva</p>
+                    <p className="text-gray-600 dark:text-gray-300">Guilherme Oliveira</p>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 dark:text-white mb-2">Email:</h4>
-                    <p className="text-gray-600 dark:text-gray-300">contato@joaosilva.dev</p>
+                    <p className="text-gray-600 dark:text-gray-300">contato@guilhermegosse.dev</p>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 dark:text-white mb-2">Localização:</h4>
@@ -600,21 +600,21 @@ export default function Home() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <TestimonialCard 
-                text="João transformou completamente nossa plataforma digital. Sua expertise técnica e capacidade de entender nosso negócio foram fundamentais para o sucesso do projeto."
+                text="Guilherme transformou completamente nossa plataforma digital. Sua expertise técnica e capacidade de entender nosso negócio foram fundamentais para o sucesso do projeto."
                 author="Ana Martins"
                 position="CEO, TechStart"
                 avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
               />
               
               <TestimonialCard 
-                text="Trabalhei com João em vários projetos e sempre fiquei impressionado com sua capacidade técnica e profissionalismo. Ele entrega consistentemente soluções de alta qualidade dentro do prazo."
+                text="Trabalhei com Guilherme em vários projetos e sempre fiquei impressionado com sua capacidade técnica e profissionalismo. Ele entrega consistentemente soluções de alta qualidade dentro do prazo."
                 author="Carlos Mendes"
                 position="CTO, FinTech Solutions"
                 avatar="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
               />
               
               <TestimonialCard 
-                text="A capacidade do João de transformar requisitos complexos em soluções elegantes é impressionante. Ele não apenas resolveu nossos problemas técnicos, mas também trouxe ideias inovadoras que melhoraram nosso produto."
+                text="A capacidade do Guilherme de transformar requisitos complexos em soluções elegantes é impressionante. Ele não apenas resolveu nossos problemas técnicos, mas também trouxe ideias inovadoras que melhoraram nosso produto."
                 author="Mariana Costa"
                 position="Product Manager, E-commerce Global"
                 avatar="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=922&q=80"
@@ -715,7 +715,7 @@ export default function Home() {
                     </div>
                     <div className="ml-4">
                       <p className="text-base font-medium text-gray-900 dark:text-white">Email</p>
-                      <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">contato@joaosilva.dev</p>
+                      <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">contato@guilhermegosse.dev</p>
                     </div>
                   </div>
                   
@@ -822,7 +822,7 @@ export default function Home() {
             
             <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400">
-                &copy; {new Date().getFullYear()} João Silva. Todos os direitos reservados.
+                &copy; {new Date().getFullYear()} Guilherme Oliveira. Todos os direitos reservados.
               </p>
               <div className="mt-4 md:mt-0 flex space-x-6">
                 <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
