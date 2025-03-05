@@ -89,7 +89,7 @@ const ExperienceCard = ({ period, company, position, description }) => {
   );
 };
 
-// Componente para card de serviço
+// Componente para card de serviço a
 const ServiceCard = ({ icon, title, description }) => {
   return (
     <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
