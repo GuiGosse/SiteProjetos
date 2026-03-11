@@ -1,0 +1,48 @@
+# Exported from Render on 2026-03-11T03:58:18Z
+version: "1"
+services:
+- type: web
+  name: SiteProjetos
+  runtime: docker
+  repo: https://github.com/GuiGosse/SiteProjetos
+  plan: free
+  envVars:
+  - key: APP_NAME
+    sync: false
+  - key: APP_DEBUG
+    sync: false
+  - key: LOG_LEVEL
+    sync: false
+  - key: LOG_CHANNEL
+    sync: false
+  - key: QUEUE_CONNECTION
+    sync: false
+  - key: SESSION_LIFETIME
+    sync: false
+  - key: SESSION_DRIVER
+    sync: false
+  - key: CACHE_DRIVER
+    sync: false
+  - key: DB_PASSWORD
+    sync: false
+  - key: DB_USERNAME
+    sync: false
+  - key: DB_DATABASE
+    sync: false
+  - key: DB_PORT
+    sync: false
+  - key: DB_HOST
+    sync: false
+  - key: DB_CONNECTION
+    sync: false
+  - key: APP_URL
+    sync: false
+  - key: APP_ENV
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+  domains:
+  - guilhermegosse.com.br
+  - www.guilhermegosse.com.br
+  autoDeployTrigger: "off"
